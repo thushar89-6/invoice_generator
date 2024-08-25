@@ -21,20 +21,20 @@ def about():
     f1.grid(row=1,column=0,padx=30)
     f2=ctk.CTkFrame(window,fg_color='transparent')
     f2.grid(row=2,column=0,sticky='nsew')
-    my_image1 = ctk.CTkImage(light_image=Image.open("bills\img1.jpg"),
-                                  dark_image=Image.open("bills\img1.jpg"),
+    my_image1 = ctk.CTkImage(light_image=Image.open("bills\img.jpg"),
+                                  dark_image=Image.open("bills\img.jpg"),
                                   size=(100, 120))
     image_label1 = ctk.CTkLabel(f1, image=my_image1, text="")
-    my_image2 = ctk.CTkImage(light_image=Image.open("bills\img2.jpg"),
-                                  dark_image=Image.open("bills\img2.jpg"),
+    my_image2 = ctk.CTkImage(light_image=Image.open("bills\img.jpg"),
+                                  dark_image=Image.open("bills\img.jpg"),
                                   size=(100, 120))
     image_label2 = ctk.CTkLabel(f1, image=my_image2, text="")
-    my_image3 = ctk.CTkImage(light_image=Image.open("bills\img3.jpg"),
-                                  dark_image=Image.open("bills\img3.jpg"),
+    my_image3 = ctk.CTkImage(light_image=Image.open("bills\img.jpg"),
+                                  dark_image=Image.open("bills\img.jpg"),
                                   size=(100, 120))
     image_label3 = ctk.CTkLabel(f1, image=my_image3, text="")
-    my_image4 = ctk.CTkImage(light_image=Image.open("bills\img4.jpg"),
-                                  dark_image=Image.open("bills\img4.jpg"),
+    my_image4 = ctk.CTkImage(light_image=Image.open("bills\img.jpg"),
+                                  dark_image=Image.open("bills\img.jpg"),
                                   size=(100, 120))
     image_label4 = ctk.CTkLabel(f1, image=my_image4, text="")
     image_label1.grid(column=0,row=1,padx=25,pady=10,sticky='e')
